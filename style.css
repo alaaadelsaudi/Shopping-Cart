@@ -77,7 +77,7 @@ button a {
 }
 
 /* home */
-nav{ position: fixed; /* جعل الشريط ثابت */
+nav{ position: fixed;
     top: 0;
     left: 0;
     right: 0;
