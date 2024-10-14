@@ -82,7 +82,7 @@ function updateCart() {
     let totalPrice = 0;
 
     if (cartItems.length === 0) {
-        cartItemsDiv.innerHTML = '<p>سلتك فارغة</p>';
+        cartItemsDiv.innerHTML = '<p>The cart is empty./p>';
     } else {
         cartItems.forEach(item => {
             totalPrice += item.price * item.quantity;
@@ -161,5 +161,5 @@ document.getElementById('loginForm')?.addEventListener('submit', function (event
     localStorage.setItem('password', password); 
 
   
-    window.location.href = 'index.html'; 
+    window.location.href = 'home.html'; 
 });
